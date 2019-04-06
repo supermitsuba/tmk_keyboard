@@ -39,6 +39,6 @@ const uint8_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 const action_t PROGMEM fn_actions[] = {
     [0] = ACTION_LAYER_TAP_KEY(1, KC_GRV),
     [1] = ACTION_LAYER_TAP_KEY(1, KC_BSLS),
-    [2] = ACTION_LAYER_TAP_KEY(1, LGUI),
-    [3] = ACTION_LAYER_TAP_KEY(1, RGUI),
+    [2] = ACTION_LAYER_TAP_KEY(1, KC_LGUI),
+    [3] = ACTION_LAYER_TAP_KEY(1, KC_RGUI),
 };
